@@ -147,7 +147,7 @@ const NFTCollection = () => {
           // option 1: use id
           // const status = nftStatus.filter(item => item.id===NFT.img)
 
-          let item = clist.find(item => item.img == NFT.img);
+          let item = clist?.find(item => item.img == NFT.img);
           // console.log("128",NFT.img)
           // console.log("128",item)
           let id = item ? item.id : -1;

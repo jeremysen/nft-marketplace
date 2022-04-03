@@ -192,8 +192,9 @@ const MintForm = () => {
         {/* cold chain */}
         <div className="col-md-2">
           <Select className={`${coldChainClass} mb-1`}
+            placeholder="Transport"
             labelInValue
-            defaultValue={{ value: 'Normal' }}
+            // defaultValue={{ value: 'Normal' }}
             style={{ width: 120 }}
             onChange={handleChange}
           >
