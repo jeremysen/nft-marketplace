@@ -132,7 +132,9 @@ The user can access the application via web-browser, and he must have the Metama
 
 ### NFT Marketplace features
 
-<img src="./img/layout.PNG" alt="layout">
+![layout2](img/layout2.png)
+
+
 
 The user can perform the following actions on this NFT Marketplace:
 
@@ -142,7 +144,7 @@ The user must input a name, description and upload a file (image) to mint his ow
 
 #### Make Offer
 
-The user can offer his NFT by specifying its price (in Ether). If someone fulfills this offer, then the ownership is transferred to a new owner. 
+The user can offer his NFT by specifying its price (in Ether). If someone fulfills this offer, then the ownership is transferred to a new owner. In this stage, you could also change the mode of transport(normal or cold chain).
 
 #### Cancel Offer
 
@@ -155,6 +157,10 @@ A user can buy those NFT which someone else offered. This will require paying th
 #### Claim Funds
 
 If a user sold an NFT, he can claim his funds by clicking the button in the top-right.
+
+
+
+
 
 ## Resources
 
